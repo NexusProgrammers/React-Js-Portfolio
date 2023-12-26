@@ -383,6 +383,9 @@ export const projects = [
     image: "./shop.png",
     tags: [
       "Next Js 14",
+      "Typescript",
+      "Prisma",
+      "Next-Auth",
       "Tailwind Css",
       "MUI Data Grid",
       "Chart JS",
