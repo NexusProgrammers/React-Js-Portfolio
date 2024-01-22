@@ -13,6 +13,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1tX0jRF9xCkMZgMbolC8L6csRdYTKo0Pr/view",
   linkedin: "https://www.linkedin.com/in/jawad-programmer-8b6745279/",
   insta: "https://www.instagram.com/jawad.programmer",
+  youtube: "https://www.youtube.com/channel/UCRZ6utwWY68-QXIIRvhiGYQ",
 };
 
 export const skills = [
