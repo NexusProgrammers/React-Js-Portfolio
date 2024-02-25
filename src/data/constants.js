@@ -90,7 +90,7 @@ export const skills = [
       {
         name: "Recharts",
         image:
-          "https://camo.githubusercontent.com/c3a99362f14162ffc8ca0704b65172b0bf50c037e2bdee32512b2288cf46993d/68747470733a2f2f692e696d6775722e636f6d2f37617634476c452e706e67",
+          "https://i.imgur.com/7av4GlE.png",
       },
       {
         name: "Chart Js",
@@ -152,7 +152,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -177,7 +177,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
         name: "Insomnia",
@@ -284,7 +284,7 @@ export const projects = [
     title: "Mern Typescript Todo Web App",
     description: "Todo app using Mern Stack with Authentication (CRUD)",
     image:
-      "https://media.licdn.com/dms/image/D4D22AQGXkfl_4_k5Wg/feedshare-shrink_2048_1536/0/1694156983979?e=1706140800&v=beta&t=Soq3Hks584MV4zXOh-Fb0HDefsG6ECbtc5G7eOxeLXk",
+      "https://media.licdn.com/dms/image/D4D22AQGXkfl_4_k5Wg/feedshare-shrink_2048_1536/0/1694156983979?e=1711584000&v=beta&t=fMS_n9AhDrIw7aQZN0vb4CssO4WwmMFugYOGNPE-JOM",
     tags: [
       "React Js",
       "Typescript",
@@ -306,7 +306,7 @@ export const projects = [
     description:
       "Creating colloge project for students application management system. Light & Dark Mode",
     image:
-      "https://media.licdn.com/dms/image/D4D22AQHccImdke6btw/feedshare-shrink_1280/0/1693053705324?e=1706140800&v=beta&t=NjCkMcGzc0WFCPdchrht1m3rmdBT2YQev_qWtZ5ETHc",
+      "https://media.licdn.com/dms/image/D4D22AQHccImdke6btw/feedshare-shrink_1280/0/1693053705324?e=1711584000&v=beta&t=9vcw3ZYoQSphkFqgY1Vuk7RLgFHRToiTmeVOoIU8ONc",
     tags: [
       "React Js",
       "Tailwind Css",
@@ -327,7 +327,7 @@ export const projects = [
     description:
       "Create React Js E-Commerce Frontend with tailwind & Responsive",
     image:
-      "https://media.licdn.com/dms/image/D4D22AQHg6j-iI4OdGg/feedshare-shrink_800/0/1697457547026?e=1706140800&v=beta&t=wORbBs6SdqjR5QNwV_CHNST7sScQ4ZUu_hq6k9-DgZk",
+      "https://media.licdn.com/dms/image/D4D22AQHg6j-iI4OdGg/feedshare-shrink_2048_1536/0/1697457547033?e=1711584000&v=beta&t=uDAp9WwOZw_Okdt_luxbFC8t5KOIFMSM9c9b_qzWdJI",
     tags: ["React Js", "Tailwind Css", "Meterial UI", "React Query"],
     category: "web app",
     github: "https://github.com/JawadProgrammer/React-React-Query-Mini",
@@ -357,7 +357,7 @@ export const projects = [
     title: "React Js & Typescript Admin Panel",
     description: "Create admin panel using React Js, SCSS & with charts",
     image:
-      "https://media.licdn.com/dms/image/D4D22AQGBintbsDWQKg/feedshare-shrink_2048_1536/0/1696418565330?e=1706140800&v=beta&t=nNaqFTxZHImvuKBqTEU6AaDQIR8g1ya3ZuubrPgThMI",
+      "https://media.licdn.com/dms/image/D4D22AQGBintbsDWQKg/feedshare-shrink_2048_1536/0/1696418565330?e=1711584000&v=beta&t=Zi1U0gOPAADIUzq9DPkMkZNvknyQ_VbQd-cOqpXlsnY",
     tags: ["React Js", "SCSS", "Meterial UI", "Chart Js", "Recharts"],
     category: "web app",
     github:
@@ -370,7 +370,7 @@ export const projects = [
     description:
       "Create admin panel using React Js, SCSS, Nivo Charts & Full Calender ",
     image:
-      "https://media.licdn.com/dms/image/D4D22AQGXAbEdsCzzjw/feedshare-shrink_2048_1536/0/1695623706127?e=1706140800&v=beta&t=rh0FuPYLbrwMD5ym1RWtsReeDkXMfOv1Ao9vVYIAl1c",
+      "https://media.licdn.com/dms/image/D4D22AQGXAbEdsCzzjw/feedshare-shrink_2048_1536/0/1695623706127?e=1711584000&v=beta&t=99AbhYhMvB4SfwkrZv8S1cYslmLy3JcpbO2Knlg3NSo",
     tags: ["React Js", "CSS", "Meterial UI", "Navo Chart", "Full Calendar"],
     category: "web app",
     github: "https://github.com/JawadProgrammer/React-Admins-Dashboard-1",
