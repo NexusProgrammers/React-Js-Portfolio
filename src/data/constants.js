@@ -1,3 +1,9 @@
+import xislabsImage from "../images/xislabs.png";
+import egasiImage from "../images/egasi.png";
+import gitXLogo from "../images/gitxLogo.png";
+import tamam from "../images/tamam.png";
+import fatoraty from "../images/fatoraty.png";
+
 export const Bio = {
   name: "Jawad Ullah",
   roles: [
@@ -8,12 +14,13 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual with a strong commitment to self-learning, consistently eager to embrace new challenges. Fueled by a passion for continuous learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am poised to make a meaningful contribution and achieve exceptional outcomes",
-  github: "https://github.com/JawadProgrammer",
+  github: "https://github.com/NexusProgrammers",
   resume:
-    "https://drive.google.com/file/d/1tX0jRF9xCkMZgMbolC8L6csRdYTKo0Pr/view",
-  linkedin: "https://www.linkedin.com/in/jawad-programmer-8b6745279/",
-  insta: "https://www.instagram.com/jawad.programmer",
-  youtube: "https://www.youtube.com/channel/UCRZ6utwWY68-QXIIRvhiGYQ",
+    "https://drive.google.com/file/d/1FrcsF9Hf3l7GV4RySBYa8bLDQ6FE3h7P/view",
+  insta: "https://www.instagram.com/nexusprogrammers",
+  youtube: "https://www.youtube.com/@NexusProgrammers",
+  facebook: "https://www.facebook.com/NexusProgrammers",
+  twitter:"https://x.com/NexusProgrammer"
 };
 
 export const skills = [
@@ -89,8 +96,7 @@ export const skills = [
       },
       {
         name: "Recharts",
-        image:
-          "https://i.imgur.com/7av4GlE.png",
+        image: "https://i.imgur.com/7av4GlE.png",
       },
       {
         name: "Chart Js",
@@ -151,8 +157,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -176,8 +181,7 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/postman.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
         name: "Insomnia",
@@ -191,9 +195,9 @@ export const experiences = [
   {
     id: 0,
     img: "data:image/png;base64,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",
-    role: "Frontend Engineer Intern",
+    role: "Frontend Developer Intern",
     company: "Texinity Technologies",
-    date: "June 2022",
+    date: "January 2021",
     desc: "Working on the frontend of the web application using ReactJS, Redux, Material UI, and Tailwind Css",
     skills: [
       "HTML",
@@ -206,12 +210,12 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://media.licdn.com/dms/image/D4D03AQGLii3yqCKDHA/profile-displayphoto-shrink_400_400/0/1702063070213?e=2147483647&v=beta&t=wuWkwB40aclo_QQrMZJGfEqaUCUJ6CP00pSWagDrM7Y",
-    role: "Food web app at Zoqo Technologies",
+    role: "Mern Stack Developer",
     company: "Zoqo Technologies",
-    date: "June 2022 - July 2023",
-    desc: "Built on the MERN stack Food App. It enables smooth interactions between customers and stall/truck owners. Customers can place orders effortlessly, while stall owners manage their stalls efficiently. dditionally, an admin panel empowers administrators to oversee and control customer activities and stall/truck owners activities",
+    date: "August 2022",
+    desc: "Working on the frontend & Backend of the web application using ReactJS, Node Js, Redux, Material UI, and Tailwind Css",
     skills: [
       "ReactJS",
       "Redux Toolkit",
@@ -225,42 +229,23 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "https://media.licdn.com/dms/image/D4D03AQGLii3yqCKDHA/profile-displayphoto-shrink_400_400/0/1702063070213?e=2147483647&v=beta&t=wuWkwB40aclo_QQrMZJGfEqaUCUJ6CP00pSWagDrM7Y",
-    role: "Scholership web app at Zoqo Technologies",
-    company: "Zoqo Technologies",
-    date: "August 2022 - Januray 2023",
-    desc: "Build with the help of MERN stack a user-friendly scholarship platform for students, simplifying applications. An intuitive admin panel ensures efficient program management and oversight",
-    skills: [
-      "ReactJS",
-      "Redux Tookit",
-      "NodeJs",
-      "Express Js",
-      "MongoDB",
-      "Material UI",
-      "Tailwind Css",
-      "Chark UI",
-      "Rechart",
-      "Synfusion UI",
-    ],
-  },
-  {
     id: 3,
-    img: "https://media.licdn.com/dms/image/D4D03AQGLii3yqCKDHA/profile-displayphoto-shrink_400_400/0/1702063070213?e=2147483647&v=beta&t=wuWkwB40aclo_QQrMZJGfEqaUCUJ6CP00pSWagDrM7Y",
-    role: "Business Hub: Dynamic Ventures at Zoqo Technologies",
-    company: "Zoqo Technologies",
-    date: "May 2022 - November 2023",
-    desc: "Revitalizing business dynamics: Admin creates categories, owners establish businesses and jobs. CV system for jobs and businesses, chat functionality, and a news section managed by the admin. Customers control profiles, bookings, and language preferences across English, French, and Dutch on the streamlined.",
+    img: xislabsImage,
+    role: "Mern Stack | Next Js | Typescript Developer",
+    company: "Xislabs",
+    date: "Feb 2024",
+    desc: "Working on the frontend & Backend of the web application using ReactJS, Node Js, Next Js, Nest Js, Redux, Material UI, and Tailwind Css",
     skills: [
       "ReactJS",
-      "Redux Toolkit Query",
+      "Next Js",
+      "Nest Js",
+      "Redux Toolkit",
       "NodeJs",
       "Express Js",
       "MongoDB",
       "Material UI",
       "Tailwind Css",
-      "Chark UI",
-      "Chart Js",
+      "Socket io",
       "Push Notifications",
     ],
   },
@@ -281,61 +266,39 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Mern Typescript Todo Web App",
-    description: "Todo app using Mern Stack with Authentication (CRUD)",
-    image:
-      "https://media.licdn.com/dms/image/D4D22AQGXkfl_4_k5Wg/feedshare-shrink_2048_1536/0/1694156983979?e=1711584000&v=beta&t=fMS_n9AhDrIw7aQZN0vb4CssO4WwmMFugYOGNPE-JOM",
+    title: "Egasi",
+    description: "Build Using Mern Stack Web Application",
+    image: egasiImage,
     tags: [
-      "React Js",
-      "Typescript",
-      "Tailwind Css",
-      "Meterial UI",
-      "Node Js",
+      "AWS",
+      "MongoDB",
       "Express Js",
+      "Node Js",
+      "React Js",
+      "Tailwind Css",
+      "Socket",
+      "Stripe",
+      "Firebase",
+      "Meterial UI",
       "Redux Toolkit",
     ],
     category: "web app",
-    github:
-      "https://github.com/JawadProgrammer/Mern-Typescript-TodoAuth-Client",
-    webapp: "https://mern-typescript-todo-auth-client.vercel.app",
+    webapp: "https://www.egasi.net/",
   },
 
   {
     id: 2,
-    title: "Mern stack web app with admin side.",
-    description:
-      "Creating colloge project for students application management system. Light & Dark Mode",
-    image:
-      "https://media.licdn.com/dms/image/D4D22AQHccImdke6btw/feedshare-shrink_1280/0/1693053705324?e=1711584000&v=beta&t=9vcw3ZYoQSphkFqgY1Vuk7RLgFHRToiTmeVOoIU8ONc",
-    tags: [
-      "React Js",
-      "Tailwind Css",
-      "Meterial UI",
-      "Node Js",
-      "Express Js",
-      "Redux Toolkit",
-      "React Paginate",
-    ],
-    category: "web app",
-    github: "https://github.com/JawadProgrammer/ICMS-Collage-Client",
-    webapp: "https://icms-collage-client.vercel.app",
-  },
-
-  {
-    id: 3,
-    title: "E-shop Ecommerce",
-    description:
-      "Create React Js E-Commerce Frontend with tailwind & Responsive",
-    image:
-      "https://media.licdn.com/dms/image/D4D22AQHg6j-iI4OdGg/feedshare-shrink_2048_1536/0/1697457547033?e=1711584000&v=beta&t=uDAp9WwOZw_Okdt_luxbFC8t5KOIFMSM9c9b_qzWdJI",
-    tags: ["React Js", "Tailwind Css", "Meterial UI", "React Query"],
+    title: "gitX",
+    description: "Create using Html, Css and javascript",
+    image: gitXLogo,
+    tags: ["Html", "Css", "Javascript"],
     category: "web app",
     github: "https://github.com/JawadProgrammer/React-React-Query-Mini",
     webapp: "https://react-react-query-mini.vercel.app",
   },
 
   {
-    id: 4,
+    id: 3,
     title: "Shopito Ecommerce",
     description: "Ecommerce web app with stripe payment integration",
     image: "live.png",
@@ -353,32 +316,53 @@ export const projects = [
   },
 
   {
-    id: 5,
-    title: "React Js & Typescript Admin Panel",
-    description: "Create admin panel using React Js, SCSS & with charts",
-    image:
-      "https://media.licdn.com/dms/image/D4D22AQGBintbsDWQKg/feedshare-shrink_2048_1536/0/1696418565330?e=1711584000&v=beta&t=Zi1U0gOPAADIUzq9DPkMkZNvknyQ_VbQd-cOqpXlsnY",
-    tags: ["React Js", "SCSS", "Meterial UI", "Chart Js", "Recharts"],
+    id: 4,
+    title: "Tamam",
+    description: "Build Using Mern Stack Web Application",
+    image: tamam,
+    tags: [
+      "AWS",
+      "MongoDB",
+      "Express Js",
+      "Node Js",
+      "React Js",
+      "Tailwind Css",
+      "Socket",
+      "Moyasar",
+      "Firebase",
+      "Meterial UI",
+      "Redux Toolkit",
+      "Re-Charts",
+    ],
     category: "web app",
-    github:
-      "https://github.com/JawadProgrammer/React-Typescript-Admins-Dashboard-2",
-    webapp: "https://react-typescript-admins-dashboard-2.vercel.app",
+    webapp: "https://dev.tamamplus.com/",
   },
   {
     id: 6,
-    title: "React Js Admin Panel",
-    description:
-      "Create admin panel using React Js, SCSS, Nivo Charts & Full Calender ",
-    image:
-      "https://media.licdn.com/dms/image/D4D22AQGXAbEdsCzzjw/feedshare-shrink_2048_1536/0/1695623706127?e=1711584000&v=beta&t=99AbhYhMvB4SfwkrZv8S1cYslmLy3JcpbO2Knlg3NSo",
-    tags: ["React Js", "CSS", "Meterial UI", "Navo Chart", "Full Calendar"],
+    title: "Fatoraty",
+    description: "Build Using Mern Stack Web Application",
+    image: fatoraty,
+    tags: [
+      "AWS",
+      "MongoDB",
+      "Express Js",
+      "Node Js",
+      "React Js",
+      "Tailwind Css",
+      "Socket",
+      "Moyasar",
+      "Firebase",
+      "Meterial UI",
+      "Redux Toolkit",
+      "Re-Charts",
+    ],
     category: "web app",
     github: "https://github.com/JawadProgrammer/React-Admins-Dashboard-1",
     webapp: "https://admins-dashboard-1.vercel.app",
   },
   {
     id: 7,
-    title: "Next Js 14 Ecommerce Shop",
+    title: "Next Js Ecommerce Shop",
     description:
       "Create Next Js 14 Ecommerce Shop Next-Auth,Stripe, Prisma,Mongo Db, Express Js",
     image: "./shop.png",

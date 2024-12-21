@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
+import XIcon from '@mui/icons-material/X';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -102,12 +103,15 @@ function Footer() {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.youtube} target="display">
             <YouTubeIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
+          </SocialMediaIcon> 
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="display">
+            <XIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2023 Jawad Ullah. All rights reserved.</Copyright>
