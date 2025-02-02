@@ -41,7 +41,7 @@ const Image = styled.img`
     object-fit: contain,
     width: 100%;
     height: 180px;
-    background-color: ${({ theme }) => theme.white};
+    background-color: ${({ theme }) => theme.black};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
     

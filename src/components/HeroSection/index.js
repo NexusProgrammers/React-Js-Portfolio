@@ -13,7 +13,8 @@ import {
   SubTitle,
   ResumeButton,
 } from "./HeroStyle";
-import HeroImg from "../../images/HeroImage.jpg";
+// import HeroImg from "../../images/HeroImage.jpg";
+import HeroImg from "../../images/Hero-Image.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -48,7 +49,9 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={HeroImg} alt="hero-image" />
+            <Img src={HeroImg} alt="hero-image" style={{
+              objectFit:"cover",
+            }} />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
