@@ -13,7 +13,7 @@ export const Bio = {
     "I am a motivated and versatile individual with a strong commitment to self-learning, consistently eager to embrace new challenges. Fueled by a passion for continuous learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am poised to make a meaningful contribution and achieve exceptional outcomes",
   github: "https://github.com/NexusProgrammers",
   resume:
-    "https://drive.google.com/file/d/1FrcsF9Hf3l7GV4RySBYa8bLDQ6FE3h7P/view",
+    "https://drive.google.com/file/d/13eqMhoMkpU3I-XT9RJ9RK-45R8BZ16KJ/view",
   insta: "https://www.instagram.com/nexusprogrammers",
   youtube: "https://www.youtube.com/@NexusProgrammers",
   facebook: "https://www.facebook.com/NexusProgrammers",
